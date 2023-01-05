@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cgsettingActivity2">
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="412dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:drawableLeft="@drawable/logout"
+        android:fontFamily="@font/donglebold"
+        android:text="Logout"
+        android:textColor="@color/brickRed_40"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="588dp" />
+
+    <Button
+        android:id="@+id/button_location"
+        android:layout_width="409dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:drawableLeft="@drawable/location"
+        android:fontFamily="@font/donglebold"
+        android:text="Location"
+        android:textColor="@color/material_dynamic_neutral30"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="1000dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/header"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-422dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_edit_image"
+        android:layout_width="100dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:layout_height="30dp"
+        android:background="@drawable/round_corner_button2"
+        android:fontFamily="@font/donglebold"
+        android:text="edit"
+        android:textColor="@color/material_dynamic_neutral_variant0"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <Button
+        android:id="@+id/button_notification"
+        android:layout_width="412dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:drawableLeft="@drawable/noti"
+        android:fontFamily="@font/donglebold"
+        android:text="Notifications"
+        android:textColor="@color/material_dynamic_neutral30"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <Button
+        android:id="@+id/button_language"
+        android:layout_width="418dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:drawableLeft="@drawable/language"
+        android:fontFamily="@font/donglebold"
+        android:text="Language"
+        android:textColor="@color/material_dynamic_neutral30"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="390dp" />
+
+    <Button
+        android:id="@+id/button_password"
+        android:layout_width="412dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:drawableLeft="@drawable/password"
+        android:fontFamily="@font/donglebold"
+        android:text="Password"
+        android:textColor="@color/material_dynamic_neutral30"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <Button
+        android:id="@+id/button_personal_information"
+        android:layout_width="405dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:drawableLeft="@drawable/personinfo"
+        android:fontFamily="@font/donglebold"
+        android:text="Personal Information"
+        android:textColor="@color/material_dynamic_neutral30"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Basil Alharthi"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <ImageView
+        android:id="@+id/imageViewsetting"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:srcCompat="@drawable/imageprofile"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button_medical_id"
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:drawableLeft="@drawable/medid"
+        android:fontFamily="@font/donglebold"
+        android:text="Medical ID"
+        android:textColor="@color/material_dynamic_neutral30"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <Switch
+        android:id="@+id/switch_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="463dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

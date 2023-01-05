@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonalInfoActivity">
+
+    <EditText
+        android:id="@+id/editText_date_of_birth"
+        android:layout_width="335dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/round_corner_text"
+        android:elevation="10dp"
+        android:ems="10"
+        android:fontFamily="@font/dmsans"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/graniteGray_60"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.324"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        android:drawableRight="@drawable/calender"/>
+
+    <EditText
+        android:id="@+id/editText_full_name_personal"
+        android:layout_width="337dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_corner_text"
+        android:elevation="10dp"
+        android:ems="10"
+        android:fontFamily="@font/dmsans"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/graniteGray_60"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.324"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewfulln" />
+
+    <TextView
+        android:id="@+id/textViewfulln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/dmsansbold"
+        android:text="Full Name"
+        android:textColor="@color/purple_60"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="47dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/dmsansbold"
+        android:text="Date of birth"
+        android:textColor="@color/purple_60"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="130dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textViewgender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/dmsansbold"
+        android:text="Gender"
+        android:textColor="@color/purple_60"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="218dp"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_gender"
+        android:layout_width="337dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_corner_text"
+        android:elevation="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.324"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewgender">
+
+
+        <RadioButton
+            android:id="@+id/radioButton_male"
+            android:layout_width="153dp"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/radio_selector"
+            android:button="@drawable/null_radio_button"
+            android:fontFamily="@font/dmsansbold"
+            android:gravity="center"
+            android:text="Male"
+            android:textColor="@drawable/radio_text_selector"
+            android:textSize="17dp" />
+
+        <RadioButton
+            android:id="@+id/radiofemale"
+            android:layout_width="153dp"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/radio_selector"
+            android:button="@drawable/null_radio_button"
+            android:fontFamily="@font/dmsansbold"
+            android:gravity="center"
+            android:text="Female"
+            android:textColor="@drawable/radio_text_selector"
+            android:textSize="17dp" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewcondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/dmsansbold"
+        android:text="What is your test condition?"
+        android:textColor="@color/purple_60"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="319dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/condition"
+        android:layout_width="337dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_corner_text"
+        android:elevation="10dp"
+        android:ems="10"
+        android:fontFamily="@font/dmsans"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text=""
+        android:textColor="@color/graniteGray_60"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.324"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewcondition"
+    />
+
+
+    <TextView
+        android:id="@+id/textViewpersonal_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/dmsansbold"
+        android:text="Phone number"
+        android:textColor="@color/purple_60"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="430dp"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:ignore="MissingConstraints"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="+966"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="460dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextPhonenumber"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="619 3456 7890"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpersonal_phone"
+        tools:layout_editor_absoluteX="96dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <TextView
+        android:id="@+id/textViewpersonal_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/dmsansbold"
+        android:text="Location"
+        android:textColor="@color/purple_60"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="515dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/personal_location"
+        android:layout_width="337dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_corner_text"
+        android:elevation="10dp"
+        android:ems="10"
+        android:fontFamily="@font/dmsans"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text=""
+        android:textColor="@color/graniteGray_60"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.324"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewpersonal_location" />
+
+    <Button
+        android:id="@+id/button_edit_personal"
+        android:layout_width="242dp"
+        android:layout_height="55dp"
+        android:background="@drawable/round_corner_button"
+        android:fontFamily="@font/donglebold"
+        android:text="Edit"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="619dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewpersonal"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="@font/dmsansbold"
+        android:gravity="center"
+        android:text="Personal information"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
